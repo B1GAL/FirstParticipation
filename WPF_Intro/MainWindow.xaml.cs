@@ -30,7 +30,7 @@ namespace WPF_Intro
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-            int age = Convert.ToInt32(txtAge.Text);
+            int age = Convert.ToInt32(txtAge.Text); //hehe
 
             DateTime today = DateTime.Now;
             int birthyear = today.Year - age;
